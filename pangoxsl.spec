@@ -8,6 +8,7 @@ Group:		Libraries
 Source0:	http://dl.sourceforge.net/pangopdf/%{name}-%{version}.tar.gz
 # Source0-md5:	3c2b9b3b77c9b725a2914db90f61f24b
 URL:		http://pangopdf.sourceforge.net/
+BuildRequires:	automake
 BuildRequires:	glib2-devel >= 1:2.4.0
 BuildRequires:	gtk-doc >= 1.0
 BuildRequires:	pango-devel >= 1.6
@@ -37,6 +38,7 @@ Pliki nag³ówkowe biblioteki pangoxsl.
 %setup -q
 
 %build
+cp -f /usr/share/automake/config.* .
 %configure \
 	--with-html-dir=%{_gtkdocdir}
 %{__make}
