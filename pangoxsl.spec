@@ -1,12 +1,12 @@
 Summary:	Additional XSL properties for Pango
 Summary(pl):	Dodatkowe w³a¶ciwo¶ci XSL dla Pango
 Name:		pangoxsl
-Version:	1.6.0.1
+Version:	1.6.0.2
 Release:	1
 License:	LGPL v2+
 Group:		Libraries
 Source0:	http://dl.sourceforge.net/pangopdf/%{name}-%{version}.tar.gz
-# Source0-md5:	3c2b9b3b77c9b725a2914db90f61f24b
+# Source0-md5:	6a389e32feaa8210222a1f3c373d5a99
 URL:		http://pangopdf.sourceforge.net/
 BuildRequires:	automake
 BuildRequires:	glib2-devel >= 1:2.4.0
@@ -25,7 +25,7 @@ Dodatkowe w³a¶ciwo¶ci XSL dla Pango.
 Summary:	Header files for pangoxsl library
 Summary(pl):	Pliki nag³ówkowe biblioteki pangoxsl
 Group:		Development/Libraries
-Requires:	%{name} = %{version}
+Requires:	%{name} = %{version}-%{release}
 Requires:	pango-devel >= 1.6
 
 %description devel
