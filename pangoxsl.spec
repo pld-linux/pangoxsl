@@ -1,5 +1,5 @@
 Summary:	Additional XSL properties for Pango
-Summary(pl.UTF-8):   Dodatkowe właściwości XSL dla Pango
+Summary(pl.UTF-8):	Dodatkowe właściwości XSL dla Pango
 Name:		pangoxsl
 Version:	1.6.0.3
 Release:	1
@@ -23,7 +23,7 @@ Dodatkowe właściwości XSL dla Pango.
 
 %package devel
 Summary:	Header files for pangoxsl library
-Summary(pl.UTF-8):   Pliki nagłówkowe biblioteki pangoxsl
+Summary(pl.UTF-8):	Pliki nagłówkowe biblioteki pangoxsl
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 Requires:	pango-devel >= 1.6
