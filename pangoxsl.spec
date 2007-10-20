@@ -2,7 +2,7 @@ Summary:	Additional XSL properties for Pango
 Summary(pl):	Dodatkowe w³a¶ciwo¶ci XSL dla Pango
 Name:		pangoxsl
 Version:	1.6.0.1
-Release:	1
+Release:	2
 License:	LGPL v2+
 Group:		Libraries
 Source0:	http://dl.sourceforge.net/pangopdf/%{name}-%{version}.tar.gz
